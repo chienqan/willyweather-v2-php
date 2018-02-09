@@ -1,0 +1,22 @@
+{
+    "name": "quangchien/willyweather-v2",
+    "description": "A fixed version of willyweather-php",
+    "authors": [
+        {
+            "name": "quangchien",
+            "email": "qchien2406@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "guzzlehttp/guzzle": "^6.2",
+        "kevinrob/guzzle-cache-middleware": "^2.0",
+        "league/flysystem": "^1.0",
+        "nesbot/carbon": "^1.22"
+    },
+    "autoload": {
+		"psr-4": { 
+            "WillyWeather\\": "src/" 
+        }
+	}
+}
